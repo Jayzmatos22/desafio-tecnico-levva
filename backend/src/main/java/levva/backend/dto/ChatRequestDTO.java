@@ -1,4 +1,4 @@
 package levva.backend.dto;
 
-public class ChatRequestDTO {
+public record ChatRequestDTO(String question) {
 }
